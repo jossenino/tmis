@@ -1,0 +1,45 @@
+#nameView{
+	 float: right; 
+	 font-size: 12px; 
+	 padding: 7px 5px;
+	 position: absolute;
+	 right: 10px; 
+	 top: 8px;
+}
+
+header.navbar-empty {
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.center-logo{
+	color: #3c8dbc;
+	text-align: center;
+}
+
+.login-afdeling{	
+	border-radius: 4px;
+	width: 400px;
+	margin:10% 13%;
+}
+
+.h1-login{
+	line-height: 70px;
+	color: #3c8dbc;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.parrafo-login{
+	color: #888;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.login-box-body,.register-box-body{background: #fafafa;border-radius: 10px;box-shadow: 0 0 2px #ccc;}
+.login-page{background: #fff;}
