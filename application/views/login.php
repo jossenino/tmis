@@ -44,7 +44,7 @@
 		    </div>
 		 <?php } ?>
 		 <div class="login-logo">
-	       	<a href="../../index2.html"> <img id="login-img" src="<?php echo base_url('img/tmis_logo.jpg'); ?>" width="40%"> <!--<b>T-MIS</b>--></a>
+	       	<a href="../../index2.html"> <img id="login-img" src="<?php echo base_url('img/tmis2.jpg'); ?>" width="40%"> <!--<b>T-MIS</b>--></a>
 	     </div><!-- /.login-logo -->
     	<?php echo form_open('','class="form-signin"'); ?>
 	        <!--<hr class="style-three">-->

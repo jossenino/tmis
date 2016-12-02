@@ -76,9 +76,24 @@ border-radius: 10px;
 #login-img{
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 100px;
+  border-radius: 150px;
 }
 
 h3.form-signin-heading {
   text-align: center;
+}
+
+.btn-primary{
+  background-color: #FFB852;
+  border-color: #FFB852;
+}
+
+.btn-primary:hover{
+  background-color: #FEB068;
+  border-color: #FEB068;
+}
+
+.btn-primary:active{
+  background-color: #FEB068; /*FEB068*/
+  border-color: #FEB068;
 }
