@@ -117,7 +117,7 @@ class User extends Admin_Controller {
 				}
 		}
 		// Set form
-		$rules = $this->user_m->rules;
+		$rules = $this->user_m->rules_Login;
 		$this->form_validation->set_rules($rules);
 		if ($this->form_validation->run() == TRUE) {
 			//we can login

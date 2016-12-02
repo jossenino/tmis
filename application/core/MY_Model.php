@@ -102,4 +102,14 @@ class MY_Model extends CI_Model {
 		return $this->db->count_all_results($this->_table_name);
 	}
 
+	public function get_Login($user, $passwordUser){
+		$this->db->select('*');
+		$this->db->from('users');
+		$where = '(email="'.$user.'" or username = "'.$user.'")';
+       	$this->db->where($where);
+       	$this->db->where('password',$passwordUser);
+		$user = $this->db->get()->result_array();
+		return $user;
+	}
+
 }

@@ -81,6 +81,7 @@ border-radius: 10px;
 
 h3.form-signin-heading {
   text-align: center;
+  color: #FFB852;
 }
 
 .btn-primary{
@@ -93,7 +94,7 @@ h3.form-signin-heading {
   border-color: #FEB068;
 }
 
-.btn-primary:active{
-  background-color: #FEB068; /*FEB068*/
-  border-color: #FEB068;
+.btn-primary:active:focus{
+  background-color: #FFB852; /*FEB068*/
+  border-color: #FFB852;
 }

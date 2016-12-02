@@ -50,7 +50,7 @@
 	        <!--<hr class="style-three">-->
 	        <h3 class="form-signin-heading">Inicia sesión</h3>
 	        <div class="form-group has-feedback">
-	            <input type="email" class="form-control" placeholder="Email" name="email">
+	            <input type="text" class="form-control" placeholder="Email" name="email">
 	            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
 	        </div>
 	          <div class="form-group has-feedback">
