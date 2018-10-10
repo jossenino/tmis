@@ -36,7 +36,7 @@ class MY_Model extends CI_Model {
 			$method = 'result';
 		}
 		
-		if (!count($this->db->ar_orderby)) {
+		if (!count($this->db->order_by($this->_order_by))) {
 			$this->db->order_by($this->_order_by);
 		}
 		return $this->db->get($this->_table_name)->$method();
